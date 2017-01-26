@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<style type="text/css">
+		body{background-color:#FFFFCC;}
+		.container{background-color:#FFFFCC;}
+		.column_container_two{width:1100px;}
+		.column_two {width:40%;}
+		.column_three {width:60%;}
+	</style>
+</head>
+
+<body>
+	<div class="container center_div">
+		<div class="menu_div">
+			<a href="about.html">ABOUT</a>&emsp;&emsp;| &emsp;&emsp; 
+			<a href="resume.html">RESUME</a>&emsp;&emsp;|&emsp;&emsp;  
+			<a href="contact.html">CONTACT</a>
+		</div>
+		<div class="column_container_two center_div	times_font grey_text">
+			<div class="column_two">
+				<div class="project_column">	
+					<span class="header">SCI-FI WESTERN</span>
+					<p> <strong>GOAL</strong>
+						<br /> Explore 3D space, 3D collisions, animation, and basic enemy AI
+					</p>
+					<p><strong>OVERVIEW</strong>
+						<br /> This project is a full 3D level, where the player battles an ancient robot.
+						Finite state machines manage the player's actions, including sword attacks,
+						movement, charging and firing a laser pistol, and dodging. 
+					</p>	
+					<p>
+						Spheres are used to detect character overlap with other colliders. 
+						To resolve collisions, the game calculates an appropriate resolution point and pushes the player
+						out of the overlapped object. 
+					</p>
+					<p>
+						The collision system limits the angle of slopes the player may
+						traverse. Moreover, players "stick" to the ground when descending a slope. 
+						Special thanks to Erik Ross, whose character controller laid the groundwork for my
+						collision resolution.
+					</p>
+					<p>
+						The robot's AI is controlled by a finite state machine and makes 
+						decisions based on player location.
+						I introduced a random element to the AI's decisions in order to 
+						provide a sense of newness every battle. 
+						Hitting the arms or chest damages the boss. 
+					</p>
+					<p>
+						I created and animated all 3D models in Blender. Videos of the game are coming soon!
+					</p>
+					<p><strong>TOOLS</strong>
+						<br />Unity
+						<br />C#
+						<br />Blender
+						<br />Photoshop
+					</p>
+					<p><strong>EXPERIENCE</strong>
+						<br />3D collision resolution
+						<br />Enemy AI
+						<br />3D modeling and animation
+						<br />State machine character control
+						<br />Saving and loading player data
+					
+					</p>
+				
+				</div>
+			</div>
+			<div class="column_three">
+				<img  src="laser.png" width="600px"/>
+				<br /><br />
+				<img src="hand.png" width="600px" />
+				<br /><br />
+				<img  src="circles.png" width="600px" />
+				<br /><br />
+				<img src="sword.png" width="600px" />
+			</div>	
+		</div>
+	</div>
+	<div id="footer">
+			Copyright 2017&emsp;|&emsp;Site built by Joel Groff
+	</div>
+	<!-- SUN MENU -->
+	<div class="home_menu">
+		<img id="menu_img_back" src="Sun_Menu.png" height="40" width="40"/>
+	</div>
+	<div class="home_menu">
+		<a href="index.html" title="Home">
+			<img id="menu_img" src="Sun_Menu.png" height="40" width="40"/>
+		</a>
+	
+	<div id="home_text_shadow" class="home_menu"><strong>H</strong></div>
+	<div id="home_text" class="home_menu"><strong>H</strong></div>
+	</div>
+	<script src="main.js"> </script>
+
+</body>
+
+
+</html>
