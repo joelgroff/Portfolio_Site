@@ -215,3 +215,18 @@
 			height:100%;
 		}	
 		.center_img{ display:block; margin: auto;}	
+		a 
+		{
+			color:#525252;
+			font-family: lucida sans unicode, arial;
+			text-decoration:none;
+		}
+		a:hover
+		{
+			color:white;
+		}
+		a:visited
+		{
+			color:#525252;
+		}
+		a:visited:hover {color:white;}
