@@ -206,12 +206,12 @@
 		{
 			overflow:hidden;
 			width:auto;
-			background-color:#E4E4E4;
 			min-height:100%;
 		}
 		body
 		{
-			background-color:#E4E4E4;
+			background-color:#C7FFF1;
+			<!--background-color:#E4E4E4;-->
 			height:100%;
 		}
 		.center_img{ display:block; margin: auto;}
