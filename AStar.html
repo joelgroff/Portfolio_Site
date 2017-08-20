@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<style type="text/css">
+		body{background-color:#FFFFCC;}
+		.container{background-color:#FFFFCC;}
+		.column_container_two{width:1100px;}
+	</style>
+	<title>Joel Groff - A* Through Procedural Level</title>
+</head>
+
+<body>
+	<div class="container center_div">
+		<div class="menu_div">
+			<a href="about.html">ABOUT</a>&emsp;&emsp;| &emsp;&emsp;
+			<a href="resume.html">RESUME</a>&emsp;&emsp;|&emsp;&emsp;
+			<a href="contact.html">CONTACT</a>
+		</div>
+		<div class="column_container_two center_div	times_font grey_text">
+			<div class="column_two">
+				<div class="project_column">
+					<span class="header">A* Pathfinding Through Procedurally Generated Levels</span>
+					<p> <strong>GOAL</strong>
+						<br /> Build a procedurally generated dungeon and have enemies navigate with A* pathfinding.
+					</p>
+					<p><strong>OVERVIEW</strong>
+						<br /> I built this project in order to test basic A* pathfinding with the Manhattan distance method. Secondly,
+						the project demonstrates a procedural level system in which rooms and hallways are generated based on user defined input.
+						The movement is all cell based, meaning the player can move up/down/left/right in single cell steps.
+					</p>
+					<p>
+						Enemies only move when the player moves or if the player is in their line of sight.
+						The player can shoot the skeletons or the barrels to clear new paths.
+					</p>
+					<p>
+						The level generation works sequentially by creating a randomly sized room, placing the room inside a limited grid, then
+						connecting a hallway in a random direction. The next room is then attached to the end of the previous hallway. Rooms and
+						halls can overlap, creating a more complex map. The grid-system uses a 2D array of ints to store cell information.
+					</p>
+					<p>
+						Once rooms and hallways have assigned their values, the array is scanned to detect where walls should be placed.
+						After the map is built, enemies,treasure, barrels, and the player are randomly placed.
+						The level system is heavily based on the Unity procedural tutorials.
+					</p>
+					<p>
+					 	Pathfinding is based on the Manhattan distance method, in which enemies evalaute the shortest distance to the player based on
+						up/down/left/right cell adjacency. Each step, the algorithm picks the cell with the lowest movement cost and lowest distance from
+						the destination, updating the movement distance of the cells adjacent to the most recently picked cell. I have included a sample
+						of the code, found on the right. 
+					</p>
+					<p><strong>TOOLS</strong>
+						<br />Unity
+						<br />C#
+						<br />Photoshop
+					</p>
+					<p><strong>EXPERIENCE</strong>
+						<br />A* Pathfinding
+						<br />Procedural Level Generation
+						<br />Grid-based Movement
+					</p>
+				</div>
+			</div>
+			<div class="column_two">
+				<iframe src="https://giphy.com/embed/bQKfV0afamVY4" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gamedev-pathfinding-bQKfV0afamVY4"></a></p>
+				<img src="levels.png" width="500px" />
+				<br /><br />
+				<iframe src="https://giphy.com/embed/K7WD2NjuBnYwU" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gamedev-pathfinding-K7WD2NjuBnYwU"></a></p>
+				<br />
+				<img src="AStarCode.png" width="500px" />
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+			Copyright 2017&emsp;|&emsp;Site built by Joel Groff
+	</div>
+	<!-- SUN MENU -->
+	<div class="home_menu">
+		<img id="menu_img_back" src="Sun_Menu.png" height="40" width="40"/>
+	</div>
+	<div class="home_menu">
+		<a href="index.html" title="Home">
+			<img id="menu_img" src="Sun_Menu.png" height="40" width="40"/>
+		</a>
+
+	<div id="home_text_shadow" class="home_menu"><strong>H</strong></div>
+	<div id="home_text" class="home_menu"><strong>H</strong></div>
+	</div>
+	<script src="main.js"> </script>
+
+</body>
+
+
+</html>
