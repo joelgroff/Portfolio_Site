@@ -3,87 +3,108 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<title>Joel Groff</title>
-	<meta name="description" content="Hello, Im a programmer named Joel Groff. These are my projects.">
-	<meta name="keywords" content="Unity,Resume,Portfolio,Computer Science,Student,C++,USF,Game Development,Joel Groff">
-	<meta name="author" content="Joel Groff"
+    <meta charset="utf-8">
+    <title>Joel Groff Portfolio</title>
+    <meta name="description" content="Hello, Im a programmer named Joel Groff. These are my projects.">
+    <meta name="keywords" content="Unity,Resume,Portfolio,Computer Science,Student,C++,USF,Game Development,Joel Groff">
+    <meta name="author" content="Joel Groff"
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="mystyle2.css">
 </head>
-
 <body>
+    <div id="mainContainer" class="col-sm-offset-1 col-sm-10">
+        <div class="row thinPad">
+            <div class="col-sm-4">
+                <a href="https://twitter.com/IAmJoelGroff">
+                    <img id="twitterIcon"  src="TwitterLogo.png" height="40px;" />&emsp;
+                </a>
+                <a href="https://www.linkedin.com/in/joel-groff-97b798138/">
+                    <img id="linkedInIcon"  src="LinkedInIcon.png" height="40px;" />
+                </a>
+            </div>
+            <div class="col-sm-4 text-center headerOne">
+                JOEL GROFF
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-12 text-right menu_div">
+                    <a href="about.html">ABOUT</a>&emsp;|&emsp;
+                    <a href="resume.html">RESUME</a>&emsp;|&emsp;
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center textOne">
+                Game Designer. Programmer. Gamer. Human.
+            </div>
+        </div>
+        <div class="row headerOne thickPad">
+            <div class="col-sm-12">
+                Professional Work
+            </div>
+        </div>
+        <div class="row thinPad">
+            <div class="col-sm-12 project_img_link">
+                    <img id="cc_thumb" class = "img-responsive center-block" src="CCBanner.jpg" />
+                    <a href="CC.html"></a>
+            </div>
+        </div>
+        <div class="row headerOne thickPad">
+            <div class="col-sm-6">
+                Personal Work
+            </div>
+        </div>
+        <div class="row thinPad">
+            <div class="col-sm-4 project_img_link">
+                <img id="resume_capt" class = "img-responsive center-block" src="resume_capt.png" />
+				<a href="resume.html"></a>
+            </div>
+            <div class="col-sm-4 project_img_link">
+                <img id="astar_thumb" class = "img-responsive center-block" src="AStarThumb.png" />
+				<a href="AStar.html"></a>
+            </div>
+            <div class="col-sm-4 project_img_link">
+                <img id="jamTwo_thumb" class = "img-responsive center-block" src="jamTwo.png"  />
+				<a href="JamTwo.html"></a>
+            </div>
+        </div>
+        <div class="row thickPad project_img_link">
+            <div class="col-sm-4">
+                <img id="oot_thumb" class = "img-responsive center-block" src="oot.png" />
+                <a href="oot.html"></a>
+            </div>
+            <div class="col-sm-4 project_img_link">
+                <img id="western_thumb" class = "img-responsive center-block" src="sci-fi_western_thumb.png" />
+				<a href="western.html"></a>
+            </div>
+            <div class="col-sm-4 project_img_link">
+                <img id="jam_thumb" class = "img-responsive center-block" src="jam.png" />
+				<a href="gamejam.html"></a>
+            </div>
+        </div>
+        <div class="row thickPad textOne text-center">
+            Copyright Joel Groff 2017
+        </div>
+    </div>
 
-<div class="container center_div">
-
-	<div class="column_container_four">
-	<div class="menu_div center_div">
-		<a href="about.html">ABOUT</a>&emsp;&emsp;| &emsp;&emsp;
-		<a href="resume.html">RESUME</a>&emsp;&emsp;|&emsp;&emsp;
-		<a href="contact.html">CONTACT</a>
-	</div>
-		<div class="column_four_sm">
-			<div id="hello_div">
-				Hello, I'm a
-				programmer named <span class="teal_text">Joel Groff.</span>
-				These are my projects.
-			</div>
-			<div id="hello_img">
-				<img src="pixel_Joel.png" />
-			</div>
-		</div>
-		<div class="column_four_lg">
-			<div class="project_img_link">
-				<img id="resume_capt" src="resume_capt.png" height="290px" width="290px" />
-				<a href="resume.html"><br /><span class="black_text times_font">RESUME<br />(PLAY MY RESUME GAME)</span></a>
-			</div>
-			<br />
-			<div class="project_img_link">
-				<img id="oot_thumb" src="oot.png" height="290px" width="290px" />
-				<a href="oot.html"><br/ ><br /><span class="black_text times_font">THE TREE OF OOT</span></a>
-			</div>
-		</div>
-		<div class="column_four_lg">
-			<div class="project_img_link">
-				<img id="astar_thumb" src="AStarThumb.png" height="290px" width="290px" />
-				<a href="AStar.html"><br/ ><span class="black_text times_font">A* PATHFINDING/<br /> PROCEDURAL LEVELS</span></a>
-			</div>
-			<br />
-			<div class="project_img_link">
-				<img id="western_thumb" src="sci-fi_western_thumb.png" height="290px" width="290px" />
-				<a href="western.html"><br/ ><br /><span class="black_text times_font">SCI-FI WESTERN</span></a>
-			</div>
-		</div>
-		<div class="column_four_lg">
-			<div class="project_img_link">
-				<img id="jamTwo_thumb" src="jamTwo.png" height="290px" width="290px" />
-				<a href="JamTwo.html"><br/ ><br /><span class="black_text times_font">GAME JAM 2017<br />(PLAYABLE)</span></a>
-			</div>
-			<br />
-			<div class="project_img_link">
-				<img id="jam_thumb" src="jam.png" height="290px" width="290px" />
-				<a href="gamejam.html"><br/ ><br /><span class="black_text times_font">GAME JAM 2016<br />(PLAYABLE)</span></a>
-			</div>
-		</div>
-
-	</div>
-
-
-</div>
-<div id="footer">
-		Copyright 2017&emsp;|&emsp;Site built by Joel Groff
-</div>
-<!-- SUN MENU -->
-<div class="home_menu">
-	<img id="menu_img_back" src="Sun_Menu.png" height="40" width="40"/>
-</div>
-<div class="home_menu">
-	<a href="index.html" title="Home">
-		<img id="menu_img" src="Sun_Menu.png" height="40" width="40"/>
-	</a>
-
-	<div id="home_text_shadow" class="home_menu"><strong>H</strong></div>
-	<div id="home_text" class="home_menu"><strong>H</strong></div>
-</div>
-<script src="main.js"> </script>
+    <!-- SUN MENU -->
+    <div class="home_menu">
+    	<img id="menu_img_back" src="Sun_Menu.png" height="40" width="40"/>
+    </div>
+    <div class="home_menu">
+    	<a href="index.html" title="Home">
+    		<img id="menu_img" src="Sun_Menu.png" height="40" width="40"/>
+    	</a>
+    	<div id="home_text" class="home_menu"><strong>H</strong></div>
+    </div>
+    <script src="main.js"> </script>
 
 </body>
 </html>

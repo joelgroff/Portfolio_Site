@@ -2,61 +2,87 @@
 
 <html>
 <head>
+	<title>Joel Groff - Oot</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle2.css">
+
 	<style type="text/css">
 		body{background-color:#C7FFF1;}
-		.container{background-color:#C7FFF1; height:650px;}
-		.column_container_two{width:1100px;}
 	</style>
-	<title>Joel Groff - Oot</title>
+
 </head>
 
 <body>
-
-	<div class="container center_div">
-		<div class="menu_div">
-			<a href="about.html">ABOUT</a>&emsp;&emsp;| &emsp;&emsp;
-			<a href="resume.html">RESUME</a>&emsp;&emsp;|&emsp;&emsp;
-			<a href="contact.html">CONTACT</a>
-		</div>
-		<div class="column_container_two center_div times_font grey_text">
-			<div class="column_two">
-				<div class="project_column">
-					<span class="header">THE TREE OF OOT</span>
-					<p>
-						<strong>GOAL</strong>
-						<br /> Build a simple, complete game from scratch.
-					</p>
-					<p>
-						<strong>OVERVIEW</strong>
-						<br /> My first game, The Tree of Oot, is a 2D endless-dodger, where the player controls Oot, a flying squirrel.
-						Oot can open his wings to slow his fall and better dodge pinecones.
-						Each successfully dodged pinecone increases the player's score.					</p>
-
-					<p>
-						<strong>TOOLS</strong>
-						<br />C++
-						<br />SDL
-						<br />Photoshop
-					</p>
-					<p>
-						<strong>EXPERIENCE</strong>
-						<br />2D collision detection
-						<br />User input control
-						<br />Game loop management
-						<br />Random object generation
-						<br />Importing art and linking to objects
-					</p>
-
+	<div id="mainContainer" class="col-sm-offset-1 col-sm-10">
+		<div class="row thinPad">
+			<div class="col-sm-4">
+				<a href="https://twitter.com/IAmJoelGroff">
+					<img id="twitterIcon"  src="TwitterLogo.png" height="40px;" />&emsp;
+				</a>
+				<a href="https://www.linkedin.com/in/joel-groff-97b798138/">
+					<img id="linkedInIcon"  src="LinkedInIcon.png" height="40px;" />
+				</a>
+			</div>
+			<div class="col-sm-4 text-center headerOne">
+				JOEL GROFF
+			</div>
+			<div class="col-sm-4">
+				<div class="col-sm-12 text-right menu_div">
+					<a href="about.html">ABOUT</a>&emsp;|&emsp;
+					<a href="resume.html">RESUME</a>&emsp;|&emsp;
+					<a href="contact.html">CONTACT</a>
 				</div>
 			</div>
-			<div class="column_two">
+		</div>
+		<div class="row">
+			<div class="col-sm-12 text-center textOne">
+				Game Designer. Programmer. Gamer. Human.
+			</div>
+		</div>
+		<div class="row headerOne thickPad">
+			<div class="col-sm-12">
+				THE TREE OF OOT
+			</div>
+		</div>
+		<div class="row thinPad">
+			<div class="col-sm-6 textTwo">
+				<p>
+					<strong>GOAL</strong>
+					<br /> Build a simple, complete game from scratch.
+				</p>
+				<p>
+					<strong>OVERVIEW</strong>
+					<br /> My first game, The Tree of Oot, is a 2D endless-dodger, where the player controls Oot, a flying squirrel.
+					Oot can open his wings to slow his fall and better dodge pinecones.
+					Each successfully dodged pinecone increases the player's score.					</p>
+
+				<p>
+					<strong>TOOLS</strong>
+					<br />C++
+					<br />SDL
+					<br />Photoshop
+				</p>
+				<p>
+					<strong>EXPERIENCE</strong>
+					<br />2D collision detection
+					<br />User input control
+					<br />Game loop management
+					<br />Random object generation
+					<br />Importing art and linking to objects
+				</p>
+			</div>
+			<div class="col-sm-6 textTwo">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/Ok9P_ltPAGY" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-	</div>
-	<div id="footer">
-			Copyright 2017&emsp;|&emsp;Site built by Joel Groff
+		<div class="row thickPad textTwo text-center">
+            Copyright Joel Groff 2017
+        </div>
 	</div>
 
 	<!-- SUN MENU -->
@@ -67,14 +93,8 @@
 		<a href="index.html" title="Home">
 			<img id="menu_img" src="Sun_Menu.png" height="40" width="40"/>
 		</a>
-
-	<div id="home_text_shadow" class="home_menu"><strong>H</strong></div>
-	<div id="home_text" class="home_menu"><strong>H</strong></div>
+		<div id="home_text" class="home_menu"><strong>H</strong></div>
 	</div>
 	<script src="main.js"> </script>
-
-
 </body>
-
-
 </html>

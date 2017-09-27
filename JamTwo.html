@@ -2,69 +2,100 @@
 
 <html>
 <head>
+	<title>Joel Groff - Game Jam 2017</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle2.css">
 	<style type="text/css">
 		body{background-color:#C7FFF1;}
-		.container{background-color:#C7FFF1; height:1600px;}
-		#resume_game{width:1020px; height:720px; position:relative; padding:20px 0 0 65px; text-align:center;}
 	</style>
-	<title>Joel Groff - Game Jam 2017</title>
 </head>
 
 <body>
-	<div class="container center_div">
-		<div class="menu_div">
-			<a href="about.html">ABOUT</a>&emsp;&emsp;| &emsp;&emsp;
-			<a href="resume.html">RESUME</a>&emsp;&emsp;|&emsp;&emsp;
-			<a href="contact.html">CONTACT</a>
+	<div id="mainContainer" class="col-sm-offset-1 col-sm-10">
+        <div class="row thinPad">
+            <div class="col-sm-4">
+                <a href="https://twitter.com/IAmJoelGroff">
+                    <img id="twitterIcon"  src="TwitterLogo.png" height="40px;" />&emsp;
+                </a>
+                <a href="https://www.linkedin.com/in/joel-groff-97b798138/">
+                    <img id="linkedInIcon"  src="LinkedInIcon.png" height="40px;" />
+                </a>
+            </div>
+            <div class="col-sm-4 text-center headerOne">
+                JOEL GROFF
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-12 text-right menu_div">
+                    <a href="about.html">ABOUT</a>&emsp;|&emsp;
+                    <a href="resume.html">RESUME</a>&emsp;|&emsp;
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center textOne">
+                Game Designer. Programmer. Gamer. Human.
+            </div>
+        </div>
+		<div class="row headerOne thickPad">
+            <div class="col-sm-12 text-center">
+                USF Game Jam 2017
+            </div>
+        </div>
+		<div class="row thinPad">
+			<div class="col-sm-12 text-center">
+				<iframe src="JamTwo\index.html" width="1000px" height="700px"></iframe>
+			</div>
 		</div>
-		<div id="resume_game" class="center_div times_font grey_text">
-			<span class="header">GAME JAM 2017</span>
-			<iframe src="JamTwo\index.html" width="1000px" height="700px"></iframe>
-		</div>
-		<div id="resume_div" class="center_div times_font grey_text">
-			<strong>DIRECTIONS</strong>
-			<br />1. Wait until game is loaded in browser
-			<br />2. Click the game
-			<br />3. Select with the mouse
-			<br />4. Click the diamond shaped polygon and drag mouse to move
-			<br />5. When the move energy bar on left is empty you will stop moving
-			<br />6. Release your mouse or swipe over a red polygon to recharge energy
-			<br />7. Dodge the black circles
-			<br />8. Don't release your mouse on top of a white square
-			<p> <strong>GOAL</strong>
-					<br /> Build a fun game within a time limit!
-			</p>
-			<p>
-				<strong>OVERVIEW</strong>
-				<br />I created Wizard102 during the USF Game Dev Club 2017 game jam. It is
-				designed to be a mobile game, where players swipe their finger to move as well
-				as destroy enemies.
-
-				<p>
-				Because I only had 6 hours to complete the game, I decided
-				to make each level procudurally generated, with a random number of white squares
-				and enemies spawning in random locations. The game also increases its difficulty,
-				spawning more enemies after each wave. Originally the game had horrible,
-				medieval-themed pixel art, a ninja that mercilessly smote wizards. After the jam,
-				I swithced this art with simple polygons. I did not have time to add sound.
+		<div class="row thinPad">
+			<div class="col-sm-offset-3 col-sm-6 textTwo">
+				<strong>DIRECTIONS</strong>
+				<br />1. Wait until game is loaded in browser
+				<br />2. Click the game
+				<br />3. Select with the mouse
+				<br />4. Click the diamond shaped polygon and drag mouse to move
+				<br />5. The bar on the left is your move energy
+				<br />6. Release your mouse or swipe over a red polygon to recharge energy
+				<br />7. Dodge the black circles
+				<br />8. Don't release your mouse on top of a white square
+				<br /><br />
+				<p> <strong>GOAL</strong>
+						<br /> Build a fun game within a time limit!
 				</p>
 				<p>
-				Why is called Wizard102 you may ask?
+					<strong>OVERVIEW</strong>
+					<br />I created Wizard102 during the USF Game Dev Club 2017 game jam. It is
+					designed to be a mobile game, where players swipe their finger to move as well
+					as destroy enemies.
+
+					<p>
+					Because I only had 6 hours to complete the game, I decided
+					to make each level procudurally generated, with a random number of white squares
+					and enemies spawning in random locations. The game also increases its difficulty,
+					spawning more enemies after each wave. Originally the game had horrible,
+					medieval-themed pixel art, a ninja that mercilessly smote wizards. After the jam,
+					I swithced this art with simple polygons. I did not have time to add sound.
+					</p>
+					<p>
+					Why is called Wizard102 you may ask?
+					</p>
 				</p>
-			</p>
-			<p>
-				<strong>TOOLS</strong>
-				<br />Unity
-				<br />Photoshop
-				<br />C#
-			</p>
-
-
+				<p>
+					<strong>TOOLS</strong>
+					<br />Unity
+					<br />Photoshop
+					<br />C#
+				</p>
+			</div>
 		</div>
-	</div>
-	<div id="footer">
-			Copyright 2017&emsp;|&emsp;Site built by Joel Groff
+		<div class="row thickPad textTwo text-center">
+            Copyright Joel Groff 2017
+        </div>
 	</div>
 
 	<!-- SUN MENU -->
@@ -75,8 +106,6 @@
 		<a href="index.html" title="Home">
 			<img id="menu_img" src="Sun_Menu.png" height="40" width="40"/>
 		</a>
-
-		<div id="home_text_shadow" class="home_menu"><strong>H</strong></div>
 		<div id="home_text" class="home_menu"><strong>H</strong></div>
 	</div>
 	<script src="main.js"> </script>

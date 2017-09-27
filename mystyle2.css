@@ -1,0 +1,124 @@
+body
+{
+    background-color:white;
+}
+#home_text
+{
+    color:#34a493;
+    font-family:arial;
+    height:0px;
+    top:12px;
+    left:10px;
+        overflow:visible;
+        pointer-events:none;
+        background:none;
+    font-size:100%;
+    font-type:strong;
+}
+.home_menu
+{
+    position:fixed;
+    top:7px;
+    left:10px;
+    width:75px;
+    text-align:center;
+    font-size:35px;
+}
+.menu_div
+{
+    color:#525252;
+    font-family: lucida sans unicode, arial;
+    font-size:15px;
+    margin-top: 10px;
+}
+.menu_div a
+{
+    color:#525252;
+    font-family: lucida sans unicode, arial;
+    font-size:18px;
+    text-decoration:none;
+}
+.menu_div a:hover {color:#34a493;}
+.menu_div a:visited {color:#525252;}
+.menu_div a:visited:hover {color:#34a493;}
+a {color:#34a493}
+a:hover {color:grey; text-decoration: none;}
+a:visited {color:#34a493;}
+a:visited:hover{color:grey;}
+.headerOne{
+    color:#525252;
+    font-size:30px;
+    font-family: lucida sans unicode, arial;
+}
+.borderLine{
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #525252;
+}
+.thinPad{
+    margin-top: 10px;
+}
+.thickPad{
+    margin-top:30px;
+}
+.textOne
+{
+    font-family: lucida sans unicode, arial;
+    color:#34a493;
+    font-size:18px;
+}
+.textTwo
+{
+    font-family: lucida sans unicode, arial;
+    color:#525252;
+    font-size:18px;
+}
+.project_img_link
+{
+
+}
+.project_img_link a
+{
+    padding:0 0 0 0;
+    display:block; color:white; background-color:white;
+    position:absolute; top:0; left:0; width:100%; height:100%; opacity:0;
+    text-align:center;
+    font-size:16px;
+}
+a:hover {
+    text-decoration: none;
+}
+.project_img_link a:hover
+{
+    opacity:.35;
+}
+.button_div
+{
+    padding: 0 0 0 0;
+    background-color:#BA3A3A;
+    width:260px;
+    text-align:center;
+}
+.button_div a
+{
+    font-family:lucida sans uni, arial;
+    display:block;
+    width:100%; height:100%;
+    font-type:strong;
+    color:white;
+    letter-spacing:2px;
+    line-height:30px;
+    text-decoration:none;
+}
+.button_div a:visited
+{
+    color:white;
+}
+.button_div a:hover
+{
+    background-color:white;
+    color:#BA3A3A;
+}
+#mainContainer {
+
+}
